@@ -1785,7 +1785,10 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
   height: 4.375rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background: #e5e9e8;
+  /* Custom Navigation Bar Color */
+  /* background: #e5e9e8; */
+  background: #16a085;
+  opacity:0.93;
   color: #454545;
   box-shadow: inset 0 -1px #9daca9, 0 1px #d6dcdb;
 }
@@ -1798,8 +1801,12 @@ input[type="checkbox"]:disabled:active + .topcoat-checkbox__checkmark:before {
 
 .topcoat-navigation-bar__title {
   font-size: 1.3rem;
-  font-weight: 400;
-  color: #454545;
+  /* Custom Navigation Bar Title Color */
+  color: #FFFFFF;
+  font-family: "Source Sans";
+  src: url("../font/SourceCodePro-Regular.otf");
+  font-weight: 600;
+
 }
 
 /*
